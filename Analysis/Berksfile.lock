@@ -1,0 +1,14 @@
+DEPENDENCIES
+  rstudio
+    git: git@github.com:takemikami/chef-rstudio.git
+    revision: 6496b2ad46c34b518ff72612e9c6a241f8de960a
+  yum
+    git: git@github.com:opscode-cookbooks/yum.git
+    revision: 7a04e5f7eaa6ff945959c77b83b4b772a19d212e
+
+GRAPH
+  rstudio (0.1.0)
+    yum-epel (>= 0.0.0)
+  yum (3.3.2)
+  yum-epel (0.5.1)
+    yum (~> 3.0)

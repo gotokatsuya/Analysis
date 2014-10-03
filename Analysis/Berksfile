@@ -1,0 +1,4 @@
+source "https://supermarket.getchef.com"
+
+cookbook 'yum', git: "git@github.com:opscode-cookbooks/yum.git"
+cookbook 'rstudio', git: "git@github.com:takemikami/chef-rstudio.git"
