@@ -4,6 +4,8 @@ Analysis
 vagrantがインストールされている前提。  
 動作確認環境：box = centos-7.0  
 
+$ vagrant box add centos70 http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_centos-7.0_chef-provisionerless.box
+
 # Install plugin  
 $ vagrant plugin install vagrant-omnibus
 
