@@ -10,7 +10,9 @@ $ vagrant box add centos70 http://opscode-vm-bento.s3.amazonaws.com/vagrant/virt
 $ vagrant plugin install vagrant-omnibus
 
 # Setup ~ Login
+$ cd Analysis  
 $ berks vendor  
+$ cd ..  
 $ vagrant up  
 $ vagrant ssh
 
