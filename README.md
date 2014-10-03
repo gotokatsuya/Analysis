@@ -53,10 +53,11 @@ Result : user_id=1にはfruit_id=104をrecommendすべき。予測ratingは3.925
 
 $ rm -rf output temp
 
-
+# R Studio Server
+localhost:8787にアクセス  
+Name: vagrant, Pass: vagrant
 
 # Error Tips
-
 $ vagrant halt  
 $ vagrant reload --provision
 
