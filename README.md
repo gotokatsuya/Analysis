@@ -9,12 +9,12 @@ $ vagrant box add centos70 http://opscode-vm-bento.s3.amazonaws.com/vagrant/virt
 # Install plugin  
 $ vagrant plugin install vagrant-omnibus
 
-# Login
+# Setup ~ Login
+$ berks vendor  
 $ vagrant up  
 $ vagrant ssh
 
 # How to use
-
 $ vagrant ssh  
 $ vi data.dat  
 Ex) columns => user_id, fruit_id, rating_value  
@@ -57,11 +57,6 @@ $ rm -rf output temp
 
 $ vagrant halt  
 $ vagrant reload --provision
-
-
-$ rm -rf Analysis/Analysis/berks-cookbooks  
-$ berks vendor
-
 
 http://railsapps.github.io/openssl-certificate-verify-failed.html
 
