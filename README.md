@@ -21,7 +21,8 @@ $ vagrant ssh
 # How to use
 $ vagrant ssh  
 $ vi data.dat  
-例えば columns => user_id, fruit_id, rating_value のようなカラムだとして以下はデータ。
+例えば  [user_id], [fruit_id], [rating_value] のようなカラムだとして以下はデータ。
+
 1,101,5.0  
 1,102,3.0  
 1,103,2.5  
