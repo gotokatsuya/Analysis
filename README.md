@@ -21,7 +21,7 @@ $ vagrant ssh
 # How to use
 $ vagrant ssh  
 $ vi data.dat  
-Ex) columns => user_id, fruit_id, rating_value  
+例えば columns => user_id, fruit_id, rating_value のようなカラムだとして以下はデータ。
 1,101,5.0  
 1,102,3.0  
 1,103,2.5  
@@ -51,7 +51,7 @@ $ cat output/part-r-00000
 3	[102:3.2698717]  
 4	[102:4.7433763]  
 
-Result : user_id=1にはfruit_id=104をrecommendすべき。予測ratingは3.9258494。
+結果、 user_id=1にはfruit_id=104をrecommendした方が良く、その予測ratingは3.9258494となった。
 
 $ rm -rf output temp
 
